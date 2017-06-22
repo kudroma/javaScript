@@ -62278,105 +62278,63 @@ window.myFunction(10,&nbsp;2);&nbsp;&nbsp;&nbsp;&nbsp;// Will also return 20<o:p
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-background:yellow;mso-highlight:yellow;mso-ansi-language:EN-US'>This is a
-common way to invoke a JavaScript function</span></i><i style='mso-bidi-font-style:
-normal'><span lang=EN-US style='color:#595959;mso-themecolor:text2;mso-themetint:
-166;mso-style-textfill-fill-color:#595959;mso-style-textfill-fill-themecolor:
-text2;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-"lumm=65000 lumo=35000";mso-ansi-language:EN-US'>, <span style='background:
-yellow;mso-highlight:yellow'>but not a very good practice</span>.<br>
-<span style='background:yellow;mso-highlight:yellow'>Global variables</span>, <span
-style='background:yellow;mso-highlight:yellow'>methods</span>, <span
-style='background:yellow;mso-highlight:yellow'>or functions</span> <span
-style='background:yellow;mso-highlight:yellow'>can easily create name conflicts
-and bugs in the global object</span>. </span></i><i style='mso-bidi-font-style:
-normal'><span lang=EN-US style='mso-ansi-language:EN-US'>// JS problem. Intbu better
-//<span style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000"'><o:p></o:p></span></span></i></p>
-
-<h3><i style='mso-bidi-font-style:normal'><span lang=EN-US style='color:#595959;
-mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:#595959;
-mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:100.0%;
-mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";mso-ansi-language:
-EN-US'><span style='color:windowtext'>The&nbsp;<b><span style='mso-bidi-font-style:
-italic'>this</span></b>&nbsp;Keyword<o:p></o:p></span></span></i></h3>
+mso-ansi-language:EN-US'>This is a common way to invoke a JavaScript function,
+but not a very good practice.<br>
+Global variables, methods, or functions can easily create name conflicts and
+bugs in the global object.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>In JavaScript, the <span style='background:yellow;
-mso-highlight:yellow'>thing called&nbsp;<b>this</b></span>, is the <span
-style='background:yellow;mso-highlight:yellow'>object that &quot;owns&quot; the
-current code</span>. </span></i><i style='mso-bidi-font-style:normal'><span
-lang=EN-US style='mso-ansi-language:EN-US'>// concept definition //<span
-style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000"'><o:p></o:p></span></span></i></p>
+mso-ansi-language:EN-US'>The&nbsp;<b><span style='mso-bidi-font-style:italic'>this</span></b>&nbsp;Keyword<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>The value of this, when used <span style='background:
-yellow;mso-highlight:yellow'>in a function</span>, is the <span
-style='background:yellow;mso-highlight:yellow'>object that &quot;owns&quot; the
-function</span>.<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>In JavaScript, the thing called&nbsp;<b>this</b>, is
+the object that &quot;owns&quot; the current code.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>Note that&nbsp;<b><span style='background:yellow;
-mso-highlight:yellow'>this</span></b><span style='background:yellow;mso-highlight:
-yellow'>&nbsp;is not a variable</span>. It <span style='background:yellow;
-mso-highlight:yellow'>is a keyword</span>. You <span style='background:yellow;
-mso-highlight:yellow'>cannot change the value of&nbsp;<b>this</b></span>.<o:p></o:p></span></i></p>
-
-<h3><i style='mso-bidi-font-style:normal'><span lang=EN-US style='color:#595959;
-mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:#595959;
-mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:100.0%;
-mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";mso-ansi-language:
-EN-US'><span style='color:windowtext'>The Global Object<o:p></o:p></span></span></i></h3>
+mso-ansi-language:EN-US'>The value of this, when used in a function, is the
+object that &quot;owns&quot; the function.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-background:yellow;mso-highlight:yellow;mso-ansi-language:EN-US'>When a function
-is called</span></i><i style='mso-bidi-font-style:normal'><span lang=EN-US
-style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'> <span style='background:yellow;mso-highlight:yellow'>without
-an owner object</span>, the <span style='background:yellow;mso-highlight:yellow'>value
-of&nbsp;<b>this</b>&nbsp;becomes the global object</span>. </span></i><i
-style='mso-bidi-font-style:normal'><span lang=EN-US style='mso-ansi-language:
-EN-US'>// JS structure //<span style='color:#595959;mso-themecolor:text2;
-mso-themetint:166;mso-style-textfill-fill-color:#595959;mso-style-textfill-fill-themecolor:
-text2;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-"lumm=65000 lumo=35000"'><o:p></o:p></span></span></i></p>
+mso-ansi-language:EN-US'>Note that&nbsp;<b>this</b>&nbsp;is not a variable. It
+is a keyword. You cannot change the value of&nbsp;<b>this</b>.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-background:yellow;mso-highlight:yellow;mso-ansi-language:EN-US'>In a web
-browser</span></i><i style='mso-bidi-font-style:normal'><span lang=EN-US
-style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'> the <span style='background:yellow;mso-highlight:
-yellow'>global object</span> <span style='background:yellow;mso-highlight:yellow'>is
-the browser window</span>.<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>The Global Object<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>This <span style='background:yellow;mso-highlight:
-yellow'>example</span> returns the window object as the value of&nbsp;<b>this</b>:<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>When a function is called without an owner object, the
+value of&nbsp;<b>this</b>&nbsp;becomes the global object.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
+style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
+#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
+mso-ansi-language:EN-US'>In a web browser the global object is the browser
+window.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
+style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
+#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
+mso-ansi-language:EN-US'>This example returns the window object as the value of&nbsp;<b>this</b>:<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
@@ -62398,41 +62356,30 @@ Will return the window object<o:p></o:p></span></i></p>
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-background:yellow;mso-highlight:yellow;mso-ansi-language:EN-US'>Invoking a
-function as a global function, causes the value of&nbsp;<b>this</b>&nbsp;to be
-the global object</span></i><i style='mso-bidi-font-style:normal'><span
-lang=EN-US style='color:#595959;mso-themecolor:text2;mso-themetint:166;
-mso-style-textfill-fill-color:#595959;mso-style-textfill-fill-themecolor:text2;
-mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-"lumm=65000 lumo=35000";mso-ansi-language:EN-US'>.<br>
-<span style='background:yellow;mso-highlight:yellow'>Using the window object as
-a variable can easily crash your program</span>. </span></i><i
-style='mso-bidi-font-style:normal'><span lang=EN-US style='mso-ansi-language:
-EN-US'>// JS problem. <span style='color:red'>Intbu better this JS problem</span>
-//<span style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000"'><o:p></o:p></span></span></i></p>
-
-<h3><i style='mso-bidi-font-style:normal'><span lang=EN-US style='color:#595959;
-mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:#595959;
-mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:100.0%;
-mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";mso-ansi-language:
-EN-US'><span style='color:windowtext'>Invoking a Function as a Method<o:p></o:p></span></span></i></h3>
+mso-ansi-language:EN-US'>Invoking a function as a global function, causes the
+value of&nbsp;<b>this</b>&nbsp;to be the global object.<br>
+Using the window object as a variable can easily crash your program.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>In JavaScript <span style='background:yellow;
-mso-highlight:yellow'>you can define function as object methods</span>.<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>Invoking a Function as a Method<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>The following <span style='background:yellow;
-mso-highlight:yellow'>example</span> creates an object (<b>myObject</b>), with
-two properties (<b>firstName</b>&nbsp;and&nbsp;<b>lastName</b>), and a method (<b>fullName</b>):<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>In JavaScript you can define function as object
+methods.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
+style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
+#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
+mso-ansi-language:EN-US'>The following example creates an object (<b>myObject</b>),
+with two properties (<b>firstName</b>&nbsp;and&nbsp;<b>lastName</b>), and a
+method (<b>fullName</b>):<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
@@ -62460,17 +62407,15 @@ style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-f
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
 mso-ansi-language:EN-US'>The&nbsp;<b>fullName</b>&nbsp;method is a function.
-The <span style='background:yellow;mso-highlight:yellow'>function belongs to
-the object</span>.&nbsp;<b>myObject</b>&nbsp;is the owner of the function.<o:p></o:p></span></i></p>
+The function belongs to the object.&nbsp;<b>myObject</b>&nbsp;is the owner of
+the function.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>The thing called&nbsp;<b><span style='background:yellow;
-mso-highlight:yellow'>this</span></b>, is <span style='background:yellow;
-mso-highlight:yellow'>the object that &quot;owns&quot; the JavaScript code</span>.
-In this case the value of&nbsp;<b>this</b>&nbsp;is&nbsp;<b>myObject</b>.<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>The thing called&nbsp;<b>this</b>, is the object that
+&quot;owns&quot; the JavaScript code. In this case the value of&nbsp;<b>this</b>&nbsp;is&nbsp;<b>myObject</b>.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
@@ -62503,46 +62448,28 @@ Will return [object Object] (the owner object)<o:p></o:p></span></i></p>
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-background:yellow;mso-highlight:yellow;mso-ansi-language:EN-US'>Invoking a
-function as an object method</span></i><i style='mso-bidi-font-style:normal'><span
-lang=EN-US style='color:#595959;mso-themecolor:text2;mso-themetint:166;
-mso-style-textfill-fill-color:#595959;mso-style-textfill-fill-themecolor:text2;
-mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-"lumm=65000 lumo=35000";mso-ansi-language:EN-US'>, <span style='background:
-yellow;mso-highlight:yellow'>causes the value of&nbsp;<b>this</b>&nbsp;to be
-the object itself</span>.<o:p></o:p></span></i></p>
-
-<h3><i style='mso-bidi-font-style:normal'><span lang=EN-US style='color:#595959;
-mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:#595959;
-mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:100.0%;
-mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";mso-ansi-language:
-EN-US'><span style='color:windowtext'>Invoking a Function with a Function
-Constructor<o:p></o:p></span></span></i></h3>
+mso-ansi-language:EN-US'>Invoking a function as an object method, causes the
+value of&nbsp;<b>this</b>&nbsp;to be the object itself.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-background:yellow;mso-highlight:yellow;mso-ansi-language:EN-US'>If a function
-invocation is preceded with the&nbsp;<b>new</b>&nbsp;keyword</span></i><i
-style='mso-bidi-font-style:normal'><span lang=EN-US style='color:#595959;
-mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:#595959;
-mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:100.0%;
-mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";mso-ansi-language:
-EN-US'>, <span style='background:yellow;mso-highlight:yellow'>it is a
-constructor invocation</span>. </span></i><i style='mso-bidi-font-style:normal'><span
-lang=EN-US style='mso-ansi-language:EN-US'>// JS structure //<span
-style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000"'><o:p></o:p></span></span></i></p>
+mso-ansi-language:EN-US'>Invoking a Function with a Function Constructor<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>It looks like you create a new function, but <span
-style='background:yellow;mso-highlight:yellow'>since JavaScript functions are
-objects you actually create a new object</span>:<o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>If a function invocation is preceded with the&nbsp;<b>new</b>&nbsp;keyword,
+it is a constructor invocation.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
+style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
+#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
+mso-ansi-language:EN-US'>It looks like you create a new function, but since
+JavaScript functions are objects you actually create a new object:<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
@@ -62569,50 +62496,29 @@ Will return &quot;John&quot;<o:p></o:p></span></i></p>
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>A <span style='background:yellow;mso-highlight:yellow'>constructor
-invocation creates a new object</span>. The <span style='background:yellow;
-mso-highlight:yellow'>new object inherits the properties and methods from its
-constructor</span>. </span></i><i style='mso-bidi-font-style:normal'><span
-lang=EN-US style='mso-ansi-language:EN-US'>// inheritance in JS //<span
-style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000"'><o:p></o:p></span></span></i></p>
+mso-ansi-language:EN-US'>A constructor invocation creates a new object. The new
+object inherits the properties and methods from its constructor.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:EN-US'>The&nbsp;<b><span style='background:yellow;mso-highlight:
-yellow'>this</span></b><span style='background:yellow;mso-highlight:yellow'>&nbsp;keyword
-in the constructor</span> <span style='background:yellow;mso-highlight:yellow'>does
-not have a value</span>.<br>
-The value of&nbsp;<b>this</b>&nbsp;<span style='background:yellow;mso-highlight:
-yellow'>will be the new object created when the function is invoked</span>.<o:p></o:p></span></i></p>
-
-<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
-style='mso-ansi-language:EN-US'>// <span style='color:red'>intbu better
-difference between function invocation and function calling in JS….</span> //</span></i><i
-style='mso-bidi-font-style:normal'><span lang=BE style='color:#595959;
-mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:#595959;
-mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:100.0%;
-mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";mso-ansi-language:
-BE'><o:p></o:p></span></i></p>
-
-<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=BE
-style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
-#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
-mso-ansi-language:BE'><a
-href="https://www.w3schools.com/js/js_function_call.asp"><span
-style='color:#979797;mso-themecolor:hyperlink;mso-themetint:166;mso-style-textfill-fill-color:
-#979797;mso-style-textfill-fill-themecolor:hyperlink;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000"'>https://www.w3schools.com/js/js_function_call.asp</span></a><o:p></o:p></span></i></p>
+mso-ansi-language:EN-US'>The&nbsp;<b>this</b>&nbsp;keyword in the constructor
+does not have a value.<br>
+The value of&nbsp;<b>this</b>&nbsp;will be the new object created when the
+function is invoked.<o:p></o:p></span></i></p>
 
 <p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=BE
 style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
 #595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
 100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
 mso-ansi-language:BE'><o:p>&nbsp;</o:p></span></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN-US
+style='color:#595959;mso-themecolor:text2;mso-themetint:166;mso-style-textfill-fill-color:
+#595959;mso-style-textfill-fill-themecolor:text2;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:"lumm=65000 lumo=35000";
+mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></i></p>
 
 <p class=MsoNormal><span lang=BE style='color:#595959;mso-themecolor:text2;
 mso-themetint:166;mso-style-textfill-fill-color:#595959;mso-style-textfill-fill-themecolor:
